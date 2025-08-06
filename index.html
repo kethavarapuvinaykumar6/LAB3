@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to The Gourmet Restaurant</h1>
+            <p>Experience the taste of exquisite cuisine</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/b0/f5/48/b0f54831dd30cd4c70f7b1af8bdd0aec.jpg" alt="Dish 1">
+                <h3>Anil Fried Rice</h3>
+                <p>For Love Birds</p>
+                <span>1450</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://i.pinimg.com/736x/38/f5/d9/38f5d9f30b421d2098b5c63bc6f8238d.jpg" alt="Dish 2">
+                <h3>Ice Cream </h3>
+                <p>For Dream Lovers</p>
+                <span>2000</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/65/37/80/executive-room.jpg?w=700&h=-1&s=1" alt="Dish 3">
+                <h3>Rooms</h3>
+                <p>For Bapatla Engineering Students</p>
+                <span>10000</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant serving fresh and delicious dishes from around the world. Our mission is to provide you with an unforgettable dining experience.</p>
+        <img src="https://media.architecturaldigest.com/photos/66c8923688f5dc5cc31e1e35/16:9/w_2560%2Cc_limit/CH_BAD_ROMAN_NYC_ROUND_1_020323952A.jpg" alt="Restaurant Interior">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 The Gourmet Restaurant | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
